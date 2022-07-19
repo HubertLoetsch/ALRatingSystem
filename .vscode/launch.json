@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Server Name",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "server": "http://BC20TestATDocker/BC",
+            "authentication": "UserPassword",
+            "serverInstance": "BC",
+            "startupObjectId": 50149,
+            "breakOnError": true,
+            "breakOnRecordWrite": false,
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "tenant": "default",
+            "schemaUpdateMode": "Recreate"  
+
+
+        }
+    ]
+}
