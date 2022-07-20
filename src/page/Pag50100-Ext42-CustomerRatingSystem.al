@@ -7,7 +7,7 @@ pageextension 50100 CustomerRatingSystem extends "Customer Card"
             field(RatingSystem; Rec.Rating)
             {
                 ApplicationArea = All;
-                ToolTip = 'Hier wird der Customer .';
+                ToolTip = 'Hier kann man eine bewertung Abgeben.';
             }
         }
     }
